@@ -1,0 +1,30 @@
+/** @format */
+
+.hero_pages {
+  display: flex;
+  gap: 20px;
+}
+.social_network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  background-image: url(../../assets/images/network.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+}
+.networks_content {
+  border: 2px solid black;
+  width: 500px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+.networks_content > p {
+  font-size: 20px;
+  color: white;
+}
+.network_image > h3 {
+  font-size: 30px;
+}

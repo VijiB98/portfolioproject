@@ -1,0 +1,60 @@
+/** @format */
+
+* @format * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.degree_name > p {
+  font-size: 20px;
+}
+.degree_name > img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.degree_name {
+  display: flex;
+}
+.institute_name {
+  display: flex;
+}
+.institute_name > img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.institute_name > p {
+  font-size: 20px;
+}
+.bar {
+  background-color: lightgray;
+  width: 100%;
+}
+.range {
+  width: 85%;
+  background-color: rgb(25, 94, 96);
+  padding: 5px;
+}
+.percentage {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+}
+.edu {
+  background: linear-gradient(rgba(226, 30, 62, 0.871), rgba(0, 0, 255, 0.696));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media (max-width) {
+  .edu {
+    flex-wrap: wrap;
+  }
+}

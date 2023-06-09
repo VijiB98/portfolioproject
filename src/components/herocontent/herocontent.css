@@ -1,0 +1,31 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero_content > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.hero_content {
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.623);
+  height: 430px;
+}
+@media (max-width: 480px) {
+  .hero_content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero_content > img {
+    max-width: 100%;
+  }
+}

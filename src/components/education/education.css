@@ -1,0 +1,159 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.master > img {
+  width: 40px;
+  height: 40px;
+}
+.master {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.master_clg > img {
+  width: 40px;
+  height: 40px;
+}
+.master_clg {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.bar {
+  width: 100%;
+  background-color: darkgrey;
+}
+.range {
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+.level {
+  width: 200px;
+  padding: 15px;
+}
+.hero_education {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  background-color: white;
+}
+.education > h1 {
+  color: white;
+}
+.bachelor_clg > img {
+  width: 40px;
+  height: 40px;
+}
+.bachelor_dgr > img {
+  width: 40px;
+  height: 40px;
+}
+.bachelor_range > p {
+  color: white;
+}
+.range > p {
+  color: white;
+}
+.school_range > p {
+  color: white;
+}
+.bachelor_clg {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.bachelor_dgr {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.bachelor {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+
+  background-color: white;
+}
+
+.bachelor_level {
+  width: 200px;
+  padding: 15px;
+}
+.bachelor_bar {
+  width: 100%;
+  background-color: lightgray;
+}
+.bachelor_range {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+.school_name > img {
+  width: 40px;
+  height: 40px;
+}
+.school_name {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.school_level {
+  width: 200px;
+  padding: 15px;
+}
+.school_bar {
+  width: 100%;
+  background-color: lightgray;
+}
+.school_range {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+
+  background-color: white;
+}
+.education {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.school_dgr > img {
+  width: 40px;
+  height: 40px;
+}
+.school_dgr {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.hero {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.749);
+}
+.hero > h1 {
+  color: white;
+}
+.education h3 {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .education {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

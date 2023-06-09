@@ -1,0 +1,212 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-size: 100% 100%;
+  background-image: url(../../assets/images/one.jpg);
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.but {
+  padding-top: 40px;
+  width: 120px;
+}
+.body > p {
+  font-size: 25px;
+  color: white;
+}
+button {
+  font-size: 30px;
+  color: blue;
+}
+.but > button:hover {
+  color: red;
+}
+
+.slick-slider {
+  position: relative;
+  z-index: -1;
+}
+
+.contact > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.number > img {
+  width: 30px;
+  height: 30px;
+}
+.number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.message > img {
+  width: 30px;
+  height: 30px;
+}
+.message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.place > img {
+  width: 30px;
+  height: 30px;
+}
+.place {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about_me {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.slill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#college {
+  font-size: 20px;
+  color: white;
+}
+.about_hero {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: center;
+  background-image: url(../../assets/images/me.webp);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.about_hero > a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.contact {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.662);
+  color: white;
+  gap: 10px;
+}
+.studies {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.662);
+  gap: 10px;
+  color: white;
+}
+.addtion_skills {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.662);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  gap: 20px;
+}
+
+/** @format */
+
+.hero_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../assets/images/project.webp);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.socialnetwork_herocontent {
+  display: flex;
+  align-items: center;
+  padding-right: 700px;
+}
+.portfolio_herocontent {
+  display: flex;
+  align-items: center;
+  padding-left: 700px;
+}
+.socialnetwork_images {
+  display: flex;
+  flex-direction: column;
+}
+.socialnetwork_images > img {
+  width: 250px;
+  height: 250px;
+}
+.portfolio_images {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio_images > img {
+  width: 250px;
+  height: 250px;
+}
+.portfolio_contents {
+  display: flex;
+  border: 2px solid gray;
+  width: 250px;
+  font-size: 20px;
+  height: 250px;
+  align-items: center;
+  padding: 10px;
+  background-color: darkgray;
+}
+.portfolio_herocontent {
+  display: flex;
+  gap: 20px;
+}
+.socialnetwork_herocontent {
+  display: flex;
+  gap: 20px;
+}
+.socialnetwork_contents {
+  display: flex;
+  border: 2px solid gray;
+  width: 250px;
+  font-size: 20px;
+  height: 250px;
+  align-items: center;
+  padding: 10px;
+  background-color: darkgrey;
+}
+.portfolio_images > p {
+  font-size: 20px;
+  color: white;
+}
+.socialnetwork_images > p {
+  font-size: 20px;
+  color: white;
+}
+.hero_page > h1 {
+  color: white;
+}
+
+@media (max-width) {
+  .body {
+    flex-wrap: wrap;
+  }
+}

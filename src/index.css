@@ -1,0 +1,12 @@
+/** @format */
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.certification_hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/images/backgroundtwo.jpg);
+}

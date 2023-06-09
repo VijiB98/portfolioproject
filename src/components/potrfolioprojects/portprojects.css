@@ -1,0 +1,43 @@
+/** @format */
+.port_projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid darkgray;
+  padding: 20px;
+  background-color: black;
+}
+.port_projects > h1 {
+  color: white;
+}
+.projects_name h2 {
+  color: white;
+}
+.projects_name {
+  display: flex;
+  gap: 80px;
+}
+.media_lander > img {
+  width: 300px;
+  height: 200px;
+}
+.media_header > img {
+  width: 300px;
+  height: 200px;
+}
+.project_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgrey;
+  height: 200px;
+  gap: 30px;
+  padding: 5px;
+}
+.project_links > a {
+  text-decoration: none;
+  color: black;
+  gap: 10px;
+  font-size: 20px;
+}

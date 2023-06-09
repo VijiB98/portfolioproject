@@ -1,0 +1,92 @@
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.html_knowledge {
+  width: 400px;
+}
+.html_bar {
+  width: 100%;
+  background-color: darkgrey;
+}
+.html_range {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+.css_knowledge {
+  width: 400px;
+}
+.css_bar {
+  width: 100%;
+  background-color: darkgray;
+}
+.css_range {
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+.react_knowledge {
+  width: 400px;
+}
+.react_bar {
+  width: 100%;
+  background-color: darkgray;
+}
+.react_range {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 10px;
+}
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.skills_knowledge {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.621);
+}
+.skills_knowledge > h1 {
+  color: white;
+}
+.knowledge h3 {
+  color: white;
+}
+@media (max-width: 480px) {
+  .skills_knowledge {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .knowledge {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .html_knowledge {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .css_knowledge {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .react_knowledge {
+    flex-wrap: wrap;
+  }
+}
+.css_range p {
+  color: white;
+}
+.html_range p {
+  color: white;
+}
+.react_range p {
+  color: white;
+}

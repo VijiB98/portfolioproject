@@ -1,0 +1,89 @@
+/** @format */
+.contacts > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.phone_no > img {
+  width: 30px;
+  height: 30px;
+}
+.phone_no {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.messages > img {
+  width: 30px;
+  height: 30px;
+}
+.messages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.places > img {
+  width: 30px;
+  height: 30px;
+}
+.places {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.information_about {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.slill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#college {
+  font-size: 20px;
+}
+.hero_page {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: center;
+  background-image: url(../../assets/images/port.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+}
+.hero_page > a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.contacts {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.662);
+  color: white;
+  gap: 10px;
+}
+.qualifications {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.662);
+  gap: 10px;
+  color: white;
+}
+.addtion_course {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.662);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  gap: 20px;
+}

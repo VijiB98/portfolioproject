@@ -1,0 +1,85 @@
+/** @format */
+
+.portfolio_card {
+  display: flex;
+  gap: 40px;
+}
+.socialmedia_card {
+  display: flex;
+  gap: 40px;
+}
+.portfolio_image > img {
+  width: 350px;
+  height: 300px;
+}
+.socialmedia_image > img {
+  width: 350px;
+  height: 300px;
+}
+.project_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-image: url(../../assets/images/backimgone.jpg);
+  padding: 20px;
+}
+.about_portfolio {
+  display: flex;
+  border: 2px solid gray;
+  width: 300px;
+  padding: 10px;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.888);
+  height: 300px;
+  color: white;
+}
+.portfolio_image {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  align-items: center;
+}
+
+.about_socialnetwork {
+  display: flex;
+  border: 2px solid gray;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+}
+.socialmedia_image {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.portfolio_image > a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.socialmedia_image > a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.project_cards > h1 {
+  color: black;
+}
+.project_cards > h1:hover {
+  color: blue;
+}
+.portfolio_image > a:hover {
+  color: blue;
+}
+.socialmedia_image > a:hover {
+  color: blue;
+}
