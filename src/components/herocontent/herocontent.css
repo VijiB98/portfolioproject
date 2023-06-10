@@ -10,6 +10,7 @@
   height: 200px;
   border-radius: 50%;
 }
+
 .hero_content {
   display: flex;
   font-size: 20px;
@@ -20,6 +21,12 @@
   background-color: rgba(0, 0, 0, 0.623);
   height: 430px;
 }
+@media (max-width: 1100px) {
+  .hero_content {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 480px) {
   .hero_content {
     flex-wrap: wrap;

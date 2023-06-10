@@ -9,4 +9,10 @@
   display: flex;
   flex-direction: column;
   background-image: url(./assets/images/backgroundtwo.jpg);
+  background-size: 100%;
+}
+@media (max-width: 1200px) {
+  .certification_hero {
+    background-size: 100% 100%;
+  }
 }

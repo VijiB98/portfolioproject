@@ -83,3 +83,13 @@
 .socialmedia_image > a:hover {
   color: blue;
 }
+@media (max-width: 1260px) {
+  .project_cards {
+    width: 1200px;
+  }
+}
+@media (max-width: 600px) {
+  .project_cards {
+    flex-wrap: wrap;
+  }
+}

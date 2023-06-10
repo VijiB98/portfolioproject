@@ -2,8 +2,8 @@
 
 import React from "react";
 import { useState } from "react";
-import ham from "../../assets/icons/hamburger.svg";
-import cancel from "../../assets/icons/cancel.svg";
+import ham from "../../assets/images/blueham.png";
+import cancel from "../../assets/images/bluecross.png";
 import "./head.css";
 import { Link } from "react-router-dom";
 const Header = () => {
